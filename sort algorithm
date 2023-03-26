@@ -2,10 +2,10 @@ list=[2,5,64,3,11,67,45,346,23,7,2,8,457]   #an example
 
 def sort1 (list):          #bubble sort
     length=len(list)
-    for i in range(length):
+    for i in range(length):             #从左到右逐个
         for j in range(1 , length - i):
-            if list[j-1] >= list[j]:
-                list[j-1],list[j]=list[j],list[j-1]      #从左到右，比较相邻两个数大小，把大的放在右边，遍历所有数字
+            if list[j-1] >= list[j]:    #比较相邻两个数大小
+                list[j-1],list[j]=list[j],list[j-1]      #把大的放在右边,小的放左边
     return list
 
 
