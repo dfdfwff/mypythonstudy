@@ -28,7 +28,7 @@ def sort3 (list):               #insert sort
         list[j+1]=key
     return list
 
-# three tests below
-print(sort1(list))
-print(sort2(list))
-print(sort3(list))
+# three tests below 
+print(sort1(list[:]))
+print(sort2(list[:]))
+print(sort3(list[:]))
